@@ -1,0 +1,157 @@
+body{
+    margin: 0px;
+}
+
+.menuHeader{
+    background-image: url(IMG/Banner.svg);
+    color: white;
+
+}
+
+.Logo{
+    width: 80px;
+    margin-top: 50px;
+    margin-left: 50px;
+    
+}
+
+.TitleH1{
+    font-family: sans-serif;
+    margin-top: 35px;
+    margin-left: 100px;
+    
+}
+
+.TextHeader{
+    font-family: sans-serif;
+    margin-left: 100px;
+    padding-bottom: 60px;
+    margin-top: 15px;
+    
+}
+
+.menuInfo{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    background-color: #EAECE5;
+    
+}
+
+.icon{
+    margin: 30px 0px 30px 100px;
+    padding: 10px;
+}
+
+.SecaoVideo{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    
+}
+
+.video{
+    margin: 50px 10px 20px 100px;
+    border-radius: 30px;
+}
+
+.textInfo{
+    display: flex;
+    align-items: center;
+    
+}
+
+.TitleVideo{
+    margin-top: 50px;
+    color:#247BA0 ;
+}
+
+.carrosel{
+    background-color:#247BA0;
+    
+    padding: 50px;
+    
+}
+
+.carrosel h1{
+    color: white;
+    text-align: center;
+    padding: 30px;
+    
+}
+
+.CardCarrosel{
+    display: grid;
+    grid-auto-flow: column;
+    margin-left: 50px;
+}
+
+#Esquerda{
+    display: none;
+}
+
+#Samantha{
+    display: none;
+}
+
+.seta{
+    margin-top: 50%;
+    cursor: pointer;
+}
+
+.seta:hover{
+    transform: translateY(-7px);
+    transition-duration: 0.5s ;
+}
+
+.Cards:hover{
+    transform: translateY(-10px);
+    transition-duration: 0.5s ;
+}
+
+.TitleEnd{
+
+    margin-top: 10px;
+}
+
+.iputInfo input{
+    font-weight: bolder;
+    background-color: #777a804f;
+    font-family: sans-serif;
+    height: 40px;
+    width: 374px;
+    margin-top:15px;
+    margin-bottom: 15px;
+    border-radius: 15px;
+    padding-left: 15px;
+    border: none;
+}
+
+.iputInfo input:hover{
+    border: 3px solid #247BA0;
+}
+
+.button{
+    background-color: #247BA0;
+    height: 50px;
+    width: 300px;
+    border: none;
+    color: white;
+    border-radius: 15px;
+    font-family: sans-serif;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.button:hover{
+    background-color: #3ea5d1;
+    transform: translateY(-10px);
+    transition-duration: 0.5s ;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.548);
+}
+
+.Formulario{
+    text-align: center;
+}
